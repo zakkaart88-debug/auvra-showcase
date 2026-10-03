@@ -1,8 +1,8 @@
 # AUVRA
 
-**Your APIs. Your creative workspace.**
+### Your APIs. Your creative workspace.
 
-Bring images, video, audio and references into one creative canvas. Choose your models and providers, connect your own API accounts or remote ComfyUI, and keep your creative work in one place.
+Take a reference image through camera exploration, 3D previs, video generation and face refinement in one creative canvas. Connect your own API accounts or remote ComfyUI, choose the model for each shot, and reuse results across supported services.
 
 **[Visit AUVRA](https://auvra.art/) · [中文介绍](../README.md)**
 
@@ -12,23 +12,68 @@ Bring images, video, audio and references into one creative canvas. Choose your 
 
 [Watch / download the 38-second introduction](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/auvra-overview-zh.mp4)
 
-## What you can explore
+## Inside the workspace
 
-- Image, video and audio models across supported providers.
-- Your own API accounts and remote ComfyUI instance.
-- A canvas for references, creative descriptions and generated media.
-- Supported first-frame, first/last-frame and reference-based video modes.
-- Camera exploration, subsequent shots and video frame capture.
-- Experimental 3D previs references for camera and spatial exploration.
+### A creative canvas that connects assets and shots
 
-Available features and pricing vary by model and provider. Experimental features do not guarantee exact geometry or camera reproduction. Generation charges are determined by your selected provider. The website and introduction video currently use Chinese; this English overview does not imply an English-language product interface.
+Keep character references, scenes, videos, audio and generation nodes in one project. Connect assets as references, mention them in creative descriptions, and hover over reference images to check your selection. Generated results stay on the canvas and can feed subsequent shots, reducing repeated downloads, uploads and asset organization across platforms.
+
+### ComfyUI workflows on your own GPU
+
+AUVRA provides ComfyUI video workflows based on the **locally hosted MiniMax H3 model**. Connect your own remote ComfyUI instance and submit jobs and view results from the website. Depending on the selected mode, images, video and audio can serve as references. Quick preview and high-quality options are available, and you can view and copy the actual generation seed.
+
+This gives creators a route using their own compute rather than a cloud video API for every shot. The instance needs the required models and dependencies. Speed and supported resolution depend on the GPU, model and workflow. A seed requires matching inputs and settings to be useful; it does not guarantee an identical composition at a different resolution.
+
+### Face restoration and refinement
+
+The ComfyUI video route includes **AUVRA face refinement** to improve facial details in generated footage, with comparison particularly useful for moving subjects, multiple people and wider shots. You can disable refinement or adjust its strength. **The original and refined versions are saved separately.**
+
+This is an enhancement tool, not a guarantee against facial artifacts. Very small faces, occlusion, identity consistency, temporal stability and dialogue lip sync still need shot-by-shot review.
+
+### Camera Sphere: explore viewpoints from an image
+
+Adjust viewing angle, elevation and distance to explore side views, high angles, reverse views and different shot sizes. Use results as storyboard frames or image references for video. Spatial orbit exploration helps explore views around a scene and select useful frames.
+
+Useful for characters, products and scene planning. A single image does not contain a complete 3D scene; the model infers unseen space. This is **AI camera exploration**, not precise 3D reconstruction, and large viewpoint changes may introduce spatial or appearance errors.
+
+### 3D previs: plan space and camera movement first
+
+An **experimental feature based on locally hosted MiniMax H3**. Build simple geometry in Blender, place stand-in characters and arrange camera movement. Use the previs video with character images, scene references and audio to explore a rendered video in AUVRA.
+
+The previs communicates camera movement, subject positions and spatial relationships. Images supply appearance and visual style, while descriptions and the model supply action. You do not need fully animated character limbs before exploring a shot. Our experiments include walking, pursuit, wuxia fights, following shots, push-and-pan movement and reverse shots, with stacked previs/output comparisons.
+
+It currently supports storyboard exploration and rough previs guidance. It **does not guarantee frame-accurate blocking, geometry or camera paths**. Complex shots need comparison, adjustment and selection. Providing audio does not by itself guarantee accurate dialogue lip sync.
+
+### Frame capture, subsequent shots and enhancement
+
+- **Video frame capture:** extract the first, last or current frame from generated or uploaded videos and create a connected image node for continued work.
+- **Next Shot / single-shot exploration:** use an existing frame to explore the next camera or narrative choice without rebuilding assets from scratch.
+- **Video enhancement:** choose AuvrA · Free or AtlasCloud cloud enhancement. The cloud option uses your connected AtlasCloud account and requires cost confirmation before submission; the original is retained. Increasing resolution does not guarantee recovery of missing detail.
+
+## See a creative result
+
+[![Creative example](../assets/example-poster.jpg)](../assets/creative-example.mp4)
+
+[Watch the 5-second creative example](../assets/creative-example.mp4)
+
+Results depend on the model, references and creative request. Public descriptions do not include internal workflows, prompt strategies or implementation code.
+
+## Choose your services
+
+Use supported official APIs, APIYI, AtlasCloud and your own ComfyUI in one workspace. Select available modes, aspect ratios, resolutions and advanced options by model and provider, and view pricing information. Coverage, capabilities, billing and data-handling policies differ between providers.
+
+We support and encourage official APIs while offering selected third-party providers as optional choices. Choose services for each project rather than committing all creative work to one platform's annual plan. Generation charges come from the selected provider; GPU rental is billed by your compute service. Connecting an account does not make generation free.
 
 ## Get started
 
-Visit the website, create an account, connect a supported provider, and create your first project. There is no application source to install from this repository.
+1. Visit [auvra.art](https://auvra.art/) and create an account or sign in.
+2. Connect a supported API account or a remote ComfyUI instance with the required models and dependencies.
+3. Create a project, add references and generate your first shot.
 
-## Feedback
+For AI video enthusiasts, storyboard artists and short-film or music-video teams. Features depend on the currently available website options. The website and introduction video currently use Chinese; this English documentation does not imply an English product interface.
 
-Use [Issues](https://github.com/zakkaart88-debug/auvra-showcase/issues) for product feedback. Never post API keys, passwords, private media or account details.
+## Feedback and cooperation
 
-This is a product showcase and documentation repository, **not an open-source release**. It contains no application source, internal workflows, prompt recipes or deployment materials.
+Use [Issues](https://github.com/zakkaart88-debug/auvra-showcase/issues) for product feedback, or the website's feedback form for cooperation inquiries. Never post keys, passwords, private media or account details. Star or Watch this repository to follow updates.
+
+This is a **product showcase and documentation repository**, not an open-source release. No application source, internal workflows, prompt recipes, API implementations or deployment materials are provided. Use the product on the website; product and brand use is subject to its terms.
