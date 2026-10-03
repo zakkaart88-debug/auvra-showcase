@@ -6,7 +6,6 @@
 !assets/
 !assets/*.mp4
 !assets/*.jpg
-!assets/auvra-avatar-white.png
 !.github/
 !.github/ISSUE_TEMPLATE/
 !.github/ISSUE_TEMPLATE/*.md

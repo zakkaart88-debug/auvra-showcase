@@ -1,7 +1,5 @@
 # AUVRA
 
-<img src="../assets/auvra-avatar-white.png" alt="AUVRA" width="104" />
-
 ### Your APIs. Your creative workspace.
 
 Take a reference image through camera exploration, 3D previs, video generation and face refinement in one creative canvas. Connect your own API accounts or remote ComfyUI, choose the model for each shot, and reuse results across supported services.

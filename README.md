@@ -1,7 +1,5 @@
 # AUVRA
 
-<img src="assets/auvra-avatar-white.png" alt="AUVRA" width="104" />
-
 ### 你的 API，你的影像创作工作台。
 
 从一张设定图，到镜头探索、白模预演、视频生成与人脸修复，把图片、视频、音频和参考素材放进同一张创作画布。连接自己的 API 或远程 ComfyUI，选择适合这一镜的模型，让不同服务的素材接着用。
