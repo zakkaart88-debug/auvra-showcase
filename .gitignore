@@ -1,0 +1,11 @@
+*
+!README.md
+!.gitignore
+!docs/
+!docs/*.md
+!assets/
+!assets/*.mp4
+!assets/*.jpg
+!.github/
+!.github/ISSUE_TEMPLATE/
+!.github/ISSUE_TEMPLATE/*.md
