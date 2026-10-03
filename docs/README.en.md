@@ -1,10 +1,12 @@
 # AUVRA
 
+<img src="../assets/auvra-avatar-white.png" alt="AUVRA" width="104" />
+
 ### Your APIs. Your creative workspace.
 
 Take a reference image through camera exploration, 3D previs, video generation and face refinement in one creative canvas. Connect your own API accounts or remote ComfyUI, choose the model for each shot, and reuse results across supported services.
 
-**[Visit AUVRA](https://auvra.art/) · [中文介绍](../README.md)**
+**[Visit AUVRA](https://auvra.art/) · [中文介绍](../README.md) · [Experimental gallery](examples.en.md)**
 
 ## Watch the introduction
 
@@ -50,13 +52,29 @@ It currently supports storyboard exploration and rough previs guidance. It **doe
 - **Next Shot / single-shot exploration:** use an existing frame to explore the next camera or narrative choice without rebuilding assets from scratch.
 - **Video enhancement:** choose AuvrA · Free or AtlasCloud cloud enhancement. The cloud option uses your connected AtlasCloud account and requires cost confirmation before submission; the original is retained. Increasing resolution does not guarantee recovery of missing detail.
 
-## See a creative result
+## See existing experiments
 
-[![Creative example](../assets/example-poster.jpg)](../assets/creative-example.mp4)
+**Blender previs → H3 video:** previs on top, generated footage below.
 
-[Watch the 5-second creative example](../assets/creative-example.mp4)
+[![Previs and generated footage](../assets/previs-poster.jpg)](../assets/previs-comparison.mp4)
 
-Results depend on the model, references and creative request. Public descriptions do not include internal workflows, prompt strategies or implementation code.
+[Watch the 8-second comparison](../assets/previs-comparison.mp4)
+
+**Face refinement comparison:** original on top, refined footage below. Compare facial details during movement.
+
+[![Original and refined video](../assets/face-poster.jpg)](../assets/face-comparison.mp4)
+
+[Watch the 8-second face comparison](../assets/face-comparison.mp4)
+
+**Camera Sphere viewpoints:** original image, side view and higher view.
+
+| Original | Side view | Higher view |
+| --- | --- | --- |
+| ![Original](../assets/camera-original.jpg) | ![Side view](../assets/camera-side.jpg) | ![Higher view](../assets/camera-high.jpg) |
+
+[Read the full experimental gallery](examples.en.md)
+
+These are existing experimental outputs, not promises of identical results on every run. Only output media and public descriptions are shared; internal workflows, prompt strategies and implementation code are not included.
 
 ## Choose your services
 

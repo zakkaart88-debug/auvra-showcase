@@ -1,10 +1,12 @@
 # AUVRA
 
+<img src="assets/auvra-avatar-white.png" alt="AUVRA" width="104" />
+
 ### 你的 API，你的影像创作工作台。
 
 从一张设定图，到镜头探索、白模预演、视频生成与人脸修复，把图片、视频、音频和参考素材放进同一张创作画布。连接自己的 API 或远程 ComfyUI，选择适合这一镜的模型，让不同服务的素材接着用。
 
-**[打开 AUVRA](https://auvra.art/) · [English](docs/README.en.md) · [快速开始](docs/quick-start.md) · [功能与更新](docs/updates.md)**
+**[打开 AUVRA](https://auvra.art/) · [English](docs/README.en.md) · [快速开始](docs/quick-start.md) · [实验作品](docs/examples.md) · [功能与更新](docs/updates.md)**
 
 ## 38 秒认识 AUVRA
 
@@ -50,13 +52,29 @@ ComfyUI 视频路线支持 AUVRA 的**人脸修复 / 精修**，改善生成片�
 - **下一镜 / 单镜头推演**：以已有画面继续探索镜头与叙事，减少从零重建素材的步骤。
 - **画质提升**：提供 AuvrA · 免费增强与 AtlasCloud 云端增强；云端路线使用用户绑定的 AtlasCloud，确认费用后提交，原片保留。放大分辨率不代表恢复原本不存在的细节。
 
-## 看创作效果
+## 看实际实验作品
 
-[![创作样例](assets/example-poster.jpg)](assets/creative-example.mp4)
+**白模预演 → H3 视频**：上半屏为 Blender 预演，下半屏为生成结果。
 
-[观看 5 秒创作样例](assets/creative-example.mp4)
+[![白模预演与生成结果](assets/previs-poster.jpg)](assets/previs-comparison.mp4)
 
-示例效果取决于所选模型、参考素材与创作要求。公开介绍不包含内部工作流、提示词策略或实现代码。
+[观看 8 秒上下对比](assets/previs-comparison.mp4)
+
+**人脸修复前后**：上半屏为原片，下半屏为修复版，可对照查看运动中的脸部细节。
+
+[![人脸修复前后视频](assets/face-poster.jpg)](assets/face-comparison.mp4)
+
+[观看 8 秒修复对比](assets/face-comparison.mp4)
+
+**相机球多机位**：原始画面、侧面探索与高机位探索。
+
+| 原始画面 | 侧面机位 | 高机位 |
+| --- | --- | --- |
+| ![原始画面](assets/camera-original.jpg) | ![侧面机位](assets/camera-side.jpg) | ![高机位](assets/camera-high.jpg) |
+
+[完整实验作品说明](docs/examples.md)
+
+这些是已有实验输出，不是每次生成的效果承诺。公开内容仅包含画面与使用说明，不包含内部工作流、提示词策略或实现代码。
 
 ## 自己选择模型与服务
 
