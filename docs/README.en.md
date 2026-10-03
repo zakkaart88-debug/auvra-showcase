@@ -10,7 +10,7 @@ Take a reference image through camera exploration, 3D previs, video generation a
 
 ## Watch the introduction
 
-[![AUVRA introduction — Chinese narration](../assets/overview-poster.jpg)](../assets/auvra-overview-zh.mp4)
+[![AUVRA introduction — Chinese narration](../assets/overview-poster.jpg)](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/auvra-overview-zh.mp4)
 
 [Watch / download the 38-second introduction](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/auvra-overview-zh.mp4)
 
@@ -56,15 +56,15 @@ It currently supports storyboard exploration and rough previs guidance. It **doe
 
 **Blender previs → H3 video:** previs on top, generated footage below.
 
-[![Previs and generated footage](../assets/previs-poster.jpg)](../assets/previs-comparison.mp4)
+[![Previs and generated footage](../assets/previs-poster.jpg)](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/previs-comparison.mp4)
 
-[Watch the 8-second comparison](../assets/previs-comparison.mp4)
+[Watch the 8-second comparison](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/previs-comparison.mp4)
 
 **Face refinement comparison:** original on top, refined footage below. Compare facial details during movement.
 
-[![Original and refined video](../assets/face-poster.jpg)](../assets/face-comparison.mp4)
+[![Original and refined video](../assets/face-poster.jpg)](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/face-comparison.mp4)
 
-[Watch the 8-second face comparison](../assets/face-comparison.mp4)
+[Watch the 8-second face comparison](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/face-comparison.mp4)
 
 **Camera Sphere viewpoints:** original image, side view and higher view.
 

@@ -10,7 +10,7 @@
 
 ## 38 秒认识 AUVRA
 
-[![观看 AUVRA 中文介绍](assets/overview-poster.jpg)](assets/auvra-overview-zh.mp4)
+[![观看 AUVRA 中文介绍](assets/overview-poster.jpg)](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/auvra-overview-zh.mp4)
 
 [播放 / 下载中文介绍视频 · 1080P · 38 秒](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/auvra-overview-zh.mp4)
 
@@ -56,15 +56,15 @@ ComfyUI 视频路线支持 AUVRA 的**人脸修复 / 精修**，改善生成片�
 
 **白模预演 → H3 视频**：上半屏为 Blender 预演，下半屏为生成结果。
 
-[![白模预演与生成结果](assets/previs-poster.jpg)](assets/previs-comparison.mp4)
+[![白模预演与生成结果](assets/previs-poster.jpg)](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/previs-comparison.mp4)
 
-[观看 8 秒上下对比](assets/previs-comparison.mp4)
+[观看 8 秒上下对比](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/previs-comparison.mp4)
 
 **人脸修复前后**：上半屏为原片，下半屏为修复版，可对照查看运动中的脸部细节。
 
-[![人脸修复前后视频](assets/face-poster.jpg)](assets/face-comparison.mp4)
+[![人脸修复前后视频](assets/face-poster.jpg)](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/face-comparison.mp4)
 
-[观看 8 秒修复对比](assets/face-comparison.mp4)
+[观看 8 秒修复对比](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/face-comparison.mp4)
 
 **相机球多机位**：原始画面、侧面探索与高机位探索。
 

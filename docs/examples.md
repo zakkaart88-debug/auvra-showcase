@@ -14,17 +14,17 @@
 
 ## Blender 白模 → MiniMax H3 视频
 
-[![白模与视频上下对照](../assets/previs-poster.jpg)](../assets/previs-comparison.mp4)
+[![白模与视频上下对照](../assets/previs-poster.jpg)](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/previs-comparison.mp4)
 
-[播放 / 下载 8 秒对比](../assets/previs-comparison.mp4)
+[播放 / 下载 8 秒对比](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/previs-comparison.mp4)
 
 上半屏：简单几何人物与场景的 Blender 预演。下半屏：以本地 MiniMax H3 生成的古装武侠实验。镜头与站位用于参考，动作和画面由模型生成；可以直接看到偏差，不以“精确复刻”宣传。
 
 ## 人脸修复：保留原片，对照选用
 
-[![原片与修复版本](../assets/face-poster.jpg)](../assets/face-comparison.mp4)
+[![原片与修复版本](../assets/face-poster.jpg)](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/face-comparison.mp4)
 
-[播放 / 下载 8 秒对比](../assets/face-comparison.mp4)
+[播放 / 下载 8 秒对比](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/face-comparison.mp4)
 
 上半屏为修复前，下半屏为修复后。它展示已有实验中的脸部处理，不代表最新默认设置的统一效果；清晰度、身份、动作和稳定性需一起检查。修复幅度可能很细微，不把修复描述为必然消除抖动或错位。
 
@@ -32,9 +32,9 @@
 
 ## 创作短片
 
-[![创作结果](../assets/example-poster.jpg)](../assets/creative-example.mp4)
+[![创作结果](../assets/example-poster.jpg)](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/creative-example.mp4)
 
-[观看 5 秒创作样例](../assets/creative-example.mp4)
+[观看 5 秒创作样例](https://github.com/zakkaart88-debug/auvra-showcase/raw/refs/heads/main/assets/creative-example.mp4)
 
 ## 公开范围
 
