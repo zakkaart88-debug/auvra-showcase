@@ -93,3 +93,9 @@ For AI video enthusiasts, storyboard artists and short-film or music-video teams
 Use [Issues](https://github.com/zakkaart88-debug/auvra-showcase/issues) for product feedback, or the website's feedback form for cooperation inquiries. Never post keys, passwords, private media or account details. Star or Watch this repository to follow updates.
 
 This is a **product showcase and documentation repository**, not an open-source release. No application source, internal workflows, prompt recipes, API implementations or deployment materials are provided. Use the product on the website; product and brand use is subject to its terms.
+
+## Projects, sound and AI assistants
+
+The asset library organizes subjects, references and generated media by project, with personal storage management. Integrated Doubao audio creation and soundtrack replacement support sound production; audio references depend on the chosen model and mode, and lip sync still requires review.
+
+Connect through MCP / Plugin in compatible AI clients to use supported project and creative tools. Availability depends on the client and current website features. Specify models, quantities and budgets before generation. Public documentation does not provide internal tool implementations or prompt strategies.

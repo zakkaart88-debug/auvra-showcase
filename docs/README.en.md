@@ -4,13 +4,23 @@
 
 ### Your APIs. Your creative workspace.
 
-Connect your own APIs and ComfyUI. Keep references, shots and generated media on one canvas.
+From keyframes, Camera Sphere and Blender previs to H3 video, face refinement and the next shot.
+
+**Create in one workspace using your own APIs or GPU.**
 
 **[Start creating](https://auvra.art/)　·　[中文](../README.md)　·　[Full feature guide](features.en.md)**
 
 </div>
 
 ---
+
+## Why AUVRA exists
+
+Creating a video often takes several models: design characters, establish a scene, create sound, generate footage, refine details and continue the next shot. Assets end up across platforms and accounts, with repeated setup between steps.
+
+AUVRA brings those steps into one project and one canvas. **Choose your models, API providers and compute, then reuse existing references and results.** Use services for each project's needs without committing all production to one provider's annual plan.
+
+For storyboards, short films, music videos, character and product shots, and creators exploring video production on their own GPU.
 
 ## See AUVRA in action
 
@@ -32,6 +42,39 @@ Connect your own APIs and ComfyUI. Keep references, shots and generated media on
 | **3D previs · Experimental** | Express camera movement and blocking with simple Blender geometry, then combine images and audio to explore H3 video. |
 | **Frame capture / Next Shot** | Extract first, last or current frames from uploaded or generated videos into connected image nodes. |
 | **Video enhancement** | Choose AuvrA · Free or enhancement through your connected AtlasCloud account, with cost confirmation before cloud submission. |
+
+### ComfyUI: use your video workflows from the canvas
+
+Connect your remote ComfyUI to use **locally hosted MiniMax H3 video generation** inside website projects. Combine character images, scene references, video and audio according to the selected mode. Try a direction with quick previews, then choose high quality. Results return to the canvas; view and copy the actual seed to retain the settings trail for a generation.
+
+You use your own compute instance. Once its models and dependencies are configured, operate this production route from AUVRA rather than repeatedly organizing inputs and results across tools.
+
+### Face refinement: keep both versions
+
+The ComfyUI production route includes facial-detail refinement. Enable automatic refinement, disable it or adjust its strength. **Original and refined footage are saved separately.** Compare wider shots, multiple people and moving faces before choosing a version, with the original still available.
+
+### Camera Sphere and Next Shot: continue from an existing image
+
+Adjust angle, elevation and distance around a reference scene to explore side, high and reverse viewpoints and different shot sizes. Spatial orbit exploration provides additional views to select. Use the resulting image as a storyboard frame or video reference.
+
+Combine **Next Shot / single-shot exploration** with frame capture to start the next production step from existing footage. Extract its first, last or current frame into an automatically connected image node, then use it for subsequent generation. Uploaded video assets are supported too.
+
+### Blender previs: express camera ideas through space
+
+Block a scene with simple geometry, position characters and plan the camera. Combine previs video, character designs, scene references and audio for **locally hosted MiniMax H3 generation**. The previs communicates positions, spatial relationships and camera paths; image references, descriptions and the model supply appearance and action. Fully detailed characters and limb animation are not required to begin exploration.
+
+This is an **experimental creative capability** we continue to test. Experiments include walking, pursuit, wuxia fights, following shots, push-and-pan movement and reverse shots, with stacked previs/output comparisons. Use it to explore storyboard and filming ideas; the examples below show the actual degree of guidance.
+
+### Sound, enhancement, assets and AI assistants
+
+| Supporting capability | How it fits |
+| :--- | :--- |
+| **Sound and audio tracks** | Create sound with the integrated Doubao audio capabilities, use audio references in supported modes, or replace a video soundtrack. |
+| **Image and video modes** | Choose supported generation / editing, first-frame, first/last-frame, multiple-reference, continuation and other available modes by model. |
+| **Providers and price information** | Select models and channels, view supported dimensions, resolutions and advanced settings, and compare available public prices in the pricing popover. |
+| **Video enhancement** | Choose free enhancement or your connected AtlasCloud; keep the original and save the enhanced version separately. |
+| **Project asset library** | Organize subjects, references and results by project; view personal storage usage and manage media. |
+| **MCP / Plugin** | Authorize AUVRA in compatible AI clients so assistants can use supported project and creative tools. Specify models, quantities and budgets before generation. |
 
 [Read the complete feature guide and practical limits →](features.en.md)
 
